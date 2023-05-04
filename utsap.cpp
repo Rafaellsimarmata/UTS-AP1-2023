@@ -9,7 +9,7 @@ void buatKetupat(int size){
 
         //melakukan perulangan bintang di sisi kanan atas 
         for (int i = k; i > 0; i--){
-            cout<<"a ";   
+            cout<<"* ";   
         }
 
         //melakukan perulangan spasi antar bintang 
@@ -19,7 +19,7 @@ void buatKetupat(int size){
 
         //melakukan perulangan bintang di sisi kiri atas
         for (int j = k; j > 0; j--){
-            cout<<"a ";
+            cout<<"* ";
         }
    
         cout<<endl;
@@ -28,7 +28,7 @@ void buatKetupat(int size){
     for (int k1 = 1; k1 < size ; k1++){
         // melakukan perulangan bintang di sisi kanan bawah
         for (int j1 = k1; j1 > 0 ; j1--){
-            cout<<"a ";
+            cout<<"* ";
         }    
 
         // melakukan perulangan spasi antar bintang 
@@ -38,7 +38,7 @@ void buatKetupat(int size){
         
         // melakukan perulangan bintang di sisi kiri bawah 
         for (int i1 = k1; i1 > 0; i1--){
-            cout<<"a ";
+            cout<<"* ";
         }
         space--;
         cout<<endl;
